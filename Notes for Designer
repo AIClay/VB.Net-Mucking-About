@@ -1,0 +1,16 @@
+Control(s): 
+
+-3x Buttons
+  -[ Gen Struct ]
+    -Generates an instance of new class, instantiates variables and props
+     then passed to a Lambda expression on front end to "Read The Values"
+  -[ RESET ]
+    -Resets form
+  -[ CLOSE ]
+    -Closes Application
+    
+-3x Labels
+    -"Val1, Val2, Val3" respectively
+    
+-3x Textboxs
+    -Displays info from targeted struct members 
