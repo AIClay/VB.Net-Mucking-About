@@ -1,0 +1,13 @@
+4x [Buttons]
+    -Gen 10 CSV
+    -Gen 10 JSON
+    -Gen 10 XML
+    -Exit Application
+       -closes entire application
+       
+       
+1x RichTextBox Control
+   - displays results from classes that generate random data/records
+   
+ 
+    
