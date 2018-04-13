@@ -1,9 +1,9 @@
 4x [Buttons]
-    -Gen 10 CSV
-    -Gen 10 JSON
-    -Gen 10 XML
+    -Gen 10 CSV => Calls class 'genTenCSV.vb' => Displays faux data in rich text box control.
+    -Gen 10 JSON => Calls class 'genTenJSON.vb' => Displays faux data in rich text box control.
+    -Gen 10 XML => Calls class 'genTenXML.vb' => Displays faux data in rich text box control.
     -Exit Application
-       -closes entire application
+       -closes entire application => marks everthing for garbage collection / exits application thread. 
        
        
 1x RichTextBox Control
