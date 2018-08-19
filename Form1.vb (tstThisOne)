@@ -1,0 +1,12 @@
+Public Class Form1
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim x As New tstOne
+        Dim itm As tstOne.tstThisOne = x.newItem
+        Me.RichTextBox1.Text = ""
+        Me.RichTextBox1.Text = itm.htmlDESC
+        itm = Nothing
+        x = Nothing
+    End Sub
+
+
+End Class
